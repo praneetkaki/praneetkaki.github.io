@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta http-equiv= "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <title>Praneet Kaki</title>
+
+        <!-- Bootstrap-->
+        <link href = "bootstrap-5.0.1-dist/css/bootstrap.min.css" rel = "stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Volkorn">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya Sans">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/1116e8fe73.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body data-spy="scroll" data-target="#scrolling-nav" data-offset = "0">
+        <div id = "overlay">
+
+        </div>
+        <div id = "header">
+            <header>
+                <nav id = "scrolling-nav" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+                    <a class="navbar-brand" href="#">
+                        <img src="images/PK.png" alt="Logo" style="width:50px;">
+                    </a>
+
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#experiences">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#interests">Hobbies/Interests</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact Me</a>
+                        </li>
+                      </ul>
+                </nav>
+
+                <div class = "container-fluid" id = "home">
+                    <div id = "meinfo">
+                        <img id = "meimg" onclick = "changeBG()" src = "images/praneet.jpg">
+                        <h1 id = "name-text">Praneet Kaki</h1>
+                        <div class = "social-icons">
+                            <a href = "mailto:praneetk07@gmail.com?body=Hi Praneet,"><i class="fas fa-envelope fa-2x social-icon"></i></a>
+                            <a href = "tel:8486675723"><i class="fas fa-phone fa-2x social-icon"></i></a>
+                            <a href = "www.linkedin.com/in/praneet-kaki"><i class="fab fa-linkedin-in fa-2x social-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <br>
+        <br>
+
+        
+
+        
+
+        <div class = "section container" id = "education" >
+            <h2 id = "education-header" onmouseover="brightImgs()" onmouseout="fadeImgs()"> Education </h2>
+            <hr style = "color: white">
+            <div class = "subsection container" id = "schools">
+                <div class = "row school" id = "sbhs">
+                    <div class = "col-sm-3">
+                        <img class = "eduimg" src = "images/sbhs.jpg">
+                    </div>
+                    <div class = "col-sm-9">
+                        <p>I attended <a href ="https://sbhs.sbschools.org/">South Brunswick High School</a>, where I graduated from in 2020. I was one of the top students in my class, earning a 4.53 GPA, 36 ACT, and 1520 SAT. I have taken many AP and college-level courses related to science and math. For more detail on my courses, feel free to check out my <a href = "#resume">Resume</a>.</p>
+                    </div>
+                </div>
+                <div class = "row school" id = "psu">
+                    <div class = "col-sm-3">
+                        <img class = "eduimg" src = "images/psu.jpg">
+                    </div>
+                    <div class = "col-sm-9">
+                        <p>I am currently a sophomore undergraduate student at <a href = "https://www.psu.edu/">Pennsylvania State University</a>, where I am pursuing a B.S degree in Premedicine. I am one of the few students in the distinguished <a href = "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd">Accelerated Premedical-Medical (BS/MD) Program</a>, through which I will spend three years total as an undergraduate student at Penn State and then attend medical school for four years at Sidney Kimmel Medical College.</p>
+                    </div>
+                </div>
+                <div class = "row school" id = "sbhs">
+                    <div class = "col-sm-3">
+                        <img class = "eduimg" src = "images/skmc.jpg">
+                    </div>
+                    <div class = "col-sm-9">
+                        <p>After spending three years at Penn State, I will matriculate to <a href = "https://www.jefferson.edu/academics/colleges-schools-institutes/skmc.html">Sidney Kimmel Medical College</a> at Thomas Jefferson University in 2023. Here, I will spend four years as a medical school student and dive much deeper into the field of medicine. Through the pre-clinical and clinical education and training, I will be be able to gauge my interests and ultimately prepare for residency.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class = "medicine-interest">
+
+                <p id = "medinfo"> 
+                    My ultimate career goal is to become a well-rounded doctor. Thus, academically, I am highly focused on biology and the life sciences, 
+                    in addition to chemistry, physics, and psychology. I enjoy learning about these subjects and appreciate any opportunity to understand how they intersect
+                    and/or have real-world applications. Outside of school, I like to find ways to build on my academic knowledge, whether it is by reading articles about
+                    medicine, reading books, or getting involved in research.Currently, my objective is to acquire a strong foundation on these subjects in preparation 
+                    for med school, where these sciences will come together in the context of the human body. 
+                </p>
+                <img src = "images/medicine.jpg" width = "30%" height = "auto">
+            </div>
+        </div>
+
+        <div class = "section container" id = "experiences">
+            <h2>Experiences</h2>
+            <hr style = "color: white">
+            <div class = "subsection container">
+                <div class = "row experience" id = "research">
+                    <div class = "col-sm-3">
+                        <img src = "images/research.png">
+                    </div>
+                    <div class = "col-sm-9">
+                        <p id = "researchinfo">Currently, I am serving as an Undergraduate Research Assistant (UGRA) in the <a href = "https://hhd.psu.edu/bbh/sleep-health-and-society">Sleep, Health, and Society Collaboratory</a> 
+                            at Penn State. Since I joined the lab recently, I am getting involved in a variety of studies, which are listed below. 
+                            I have many goals and aspirations during my time as an UGRA. This is my first time doing research, so I want to get my feet wet in the lab 
+                            setting and acquire experiences that can prepare me for future studies in medical school. I have also been interested in the subject of sleep for 
+                            a while now and my curiosity only peaked after taking an introductory psychology course during my first semester at Penn State. As an URGA in the 
+                            PSU Sleep lab, I hope to delve deeper into this interest of mine and apply my knowledge to real-world scenarios and studies. Along my journey, I am 
+                            looking forward to meeting new students and networking with faculty members who I can look up to as mentors.
+                        </p>
+                    </div>
+                </div>
+                <div class = "research-studies">
+                    <div class = "card study">
+                        <img class = "card-img-top" src = "images/insight.jpg">
+                        <div class = "card-body">
+                            <h5 class = "card-title">INSIGHT</h5>
+                            <p class = "card-text">"Intervention Nurses Start Infants Growing on Healthy Trajectories (INSIGHT) is a study that analyzes
+                                the plausibility and potency of implementing a variety of early interventions that are intended to prevent childhood obesity. 
+                                One facet of this study is sleep, as it was hypothesized that these interventions will lead to better sleep health/quality and
+                                increased physical activity. During my first semester in the lab, I helped with data entries for some of the device diaries
+                                that participants used to keep track of their general daily activity.
+                            </p>
+                            <div class = "btn-group">
+                                <a href = "https://hhd.psu.edu/nutrition/insight-study" class = "btn btn-primary card-link">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "card study">
+                        <img class = "card-img-top" src = "images/ecosleep.jpg">
+                        <div class = "card-body">
+                            <h5 class = "card-title">EcoSleep</h5>
+                            <p class = "card-text">"EcoSleep is a study that analyzes the link between sleep and cognitive decline. Sleep is supposed 
+                                to be an indicator of the onset of cognitive decline, especially among older people who are more prone to sleep and cognitive
+                                disorders. EMA (Ecological Momentary Assessments) are a series of cognitive tasks on a smart phone which are implemented in 
+                                order to obtain daily cognitive data. During my first semester in the lab, I helped with data checks for the new EMA
+                                data for a couple of the smartphone cognitive tasks (EMA).
+                            </p>
+                            <div class = "btn-group">
+                                <a href = "https://news.psu.edu/story/572199/2019/04/30/research/new-project-study-link-between-sleep-and-cognitive-decline" class = "btn btn-primary card-link">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "card study">
+                        <img class = "card-img-top" src = "images/data4action.png">
+                        <div class = "card-body">
+                            <h5 class = "card-title">Data4Action COVID-19 Study</h5>
+                            <p class = "card-text">"Data4Action is a county-wide (Centre County) study that is focused on documenting the impact
+                                that the Coronavirus pandemic had and continues to have on the lives of the residents. The PSU Sleep lab is involved 
+                                in hair collection in order to perform cortisol analyses that can provide information about stress responses as a result
+                                of COVID-19. During my first semester, I helped make hair kits from home that I then shipped to the lab so that they could 
+                                be used in the study.
+                            </p>
+                            <div class = "btn-group">
+                                <a href = "https://covid-19.ssri.psu.edu/data4action" class = "btn btn-primary card-link">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "card study">
+                        <img class = "card-img-top" src = "images/eas.jpg">
+                        <div class = "card-body">
+                            <h5 class = "card-title">Einstein Aging Study</h5>
+                            <p class = "card-text">"The Einstein Aging Study (EAS) looks at the process of aging and how certain 
+                                factors (such as sleep) are indicative of cognitive decline and dementias such as Alzheimer's Disease.
+                                The goal is to isolate these fators and develop interventions that can act upon them in order to 
+                                slow down cognitive decline. Over this summer, I am going to be looking at actigraphy data (using the 
+                                Spectrum software) and pulse oximetry data (using Nonin software) for data checks as they are uploaded
+                                by the team at Albert Einstrin College of Medicine.
+                            </p>
+                            <div class = "btn-group">
+                                <a href = "https://healthyaging.psu.edu/research/research-projects/einstein-aging-study-eas" class = "btn btn-primary card-link">Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class = "row experience" id = "hn">
+                    <div class = "col-sm-3">
+                        <img src = "images/hn_logo.png">
+                    </div>
+                    <div class = "col-sm-9">
+                        <p id = "hninfo">I am the President of the New Jersey Chapter of <a href = "https://thehorizonnetwork.org/">Horizon Networks</a>, a nonprofit volunteer
+                            organization that connects young individuals (high school/college students) with members of the senior population, who are part of an
+                            at-risk group due to the COVID-19 pandemic. Our mission is to ease the loneliness that seniors may feel in the midst of quarantine
+                            by allowind them to connect with the youth, who can provide a meaningful sense of comfort and compassion that is absolutely needed 
+                            at this time. I lead the New Jersey Chapter, which is made up of over 70 dedicated volunteers. We continue to form connections with 
+                            high schools, libraries, volunteer organizations, and senior centers, expanding on our mission to connect with seniors. We have a
+                            variety of events (Ex: jeopardy, trivia, music, 1-on-1 conversations) with many senior centers and a diverse volunteer base 
+                            made up of students from across New Jersey. </p>
+                    </div>
+                </div>
+                <div class = "row experience" id = "mpama">
+                    <div class = "col-sm-3">
+                        <img src = "images/mpama.png">
+                    </div>
+                    <div class = "col-sm-9">
+                        <p id = "karateinfo"> I have learning Tae-Kwon-Do for over 6 years at <a href = "https://mpama.com/">Master Peter's Academy of Martial Arts.</a> 
+                        Martial Arts has not only helped me develop physically and mentally, but also played a huge role in molding me into the 
+                        person I am today. I grew from a young, naive middle school kid into a young man with a true sense of discipline and 
+                        the willpower to work hard and pursue any goal. Throughout my time at MPAMA, I have learned many valuable lessons from 
+                        Master Peter and my other instructors: "CANEI (Constant and Never-Ending Improvement)", "Integrity is who you are when 
+                        no one is watching", "Make yourself irreplaceable in a world where everyone is replaceable".
+                        <br>
+                             I started as a white belt - like any other student - I was able to work my way up the ranks as I developed as a 
+                        student and a leader. After a few years as a student at MPAMA, I was invited to join the Special Winning Attitude Team  (SWAT) in 2016.
+                        I trained and learned alongside a group of other high-achieving and motivated students and took on additional responsibilities
+                        such as helping instructors during classes, whether it was by scanning the room during warm-ups and correcting mistakes or helping
+                        teach curriculum to small groups of students who may be struggling. In 2018, I advanced from SWAT to the Leadership Team, which was
+                        quite similar, but placed more emphasis on leadership and involved greater responsibilities when helping out with classes. 
+                        <br>
+                        In August 2019, I was chosen to become a part-time martial arts instructor at MPAMA, which would be my first job. As an instructor,
+                        I attended more classes and was able to teach and lead entire classes of up to forty students. I was much more familiar with the 
+                        forms, combinations, and techniques, so I was able to take on much more responsbility and effectively teach large groups of students. 
+                        In addition to teaching, as an instructor, I was constantly teaching and embodying the core values of MPAMA such as integrity,
+                        discipline, and respect.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "section container" id = "resume">
+            <h2>Resume</h2>
+            <hr style = "color: white">
+            <iframe src="https://drive.google.com/file/d/1lQNMbB-AxsotYjH7oDBApR9KpAqTIzEm/preview" style="width: 40vw;  background-color: black; height: 80vh" frameborder="0" scrolling="no"></iframe>
+        </div>
+
+        <div class = "section container" id = "interests">
+            <h2>Hobbies/Interests</h2>
+            <hr style = "color: white">
+            <div class = "subsection container">
+                <div class = "row interests" id = "basketball">
+                    <div class = "col-sm-3">
+                        
+                        <img src = "images/mpama.png">
+                    </div>
+                    <div class = "col-sm-9">
+                        <p>I have played and watched sports for as long as I can remember. I ran distance track and cross country in middle and high school
+                        and enjoy running in my free time to this day. Not only is it physically taxing, running is also mentally challenging. It has taught me 
+                        that now matter how tired your body is, it is always possible to keep running as long as your mind is in the right place and has not
+                        succumbed to physical discomfort. Running has truly helped me develop my mental fortitude that has paid dividends in several aspects of
+                        my life. 
+                        <br>
+                        <br>
+                        My <i>favorite</i> sport, however, is definitely basketball. I play it quite often with my friends outside in my free 
+                        time and watch the NBA on a regular basis. My favorite team is the Oklahoma City Thunder.
+                        I have been an avid basketball fan for many years now (both playing and watching) and it remains my go-to way to
+                        have fun. Aside from basketball, I also enjoy playing and watching football, soccer, and cricket.
+                        
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class = "row interests" id = "reading">
+                    <div class = "col-sm-7">
+                        <img src = "images/books.png">
+                        <p>Reading is always one of my favorite ways to relax and expand my mind.
+                            Reading books and articles has not only allowed me to constantly acquire real-world knowledge outside of school, 
+                            but also helped me develop important qualities such as patience, concentration, and curiosity.
+                            <br>
+                            <br>
+                            My taste in books has definitely evolved over the years, going from mostly fiction/fantasy to 
+                            predominantly nonfiction and practical selections. My favorite types of books to read are self-help
+                            and medical-related books (although I do enjoy a thrilling dystopian novel here and there). Check out my 
+                            five favorite books and let me know what you think!
+
+                        
+                        </p>
+                    </div>
+                    <div class = "col-sm-5" id = "favbooks">
+                        
+                        <ol>
+                            <li>
+                                <i>How to Win Friends and Influence People</i>, Dale Carnegie
+                                <br>
+                                <blockquote class = "blockquote">
+                                    <p>“You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you.”</p>
+                                    <footer class = "blockquote-footer">Dale Carnegie</footer>
+                                </blockquote>
+                            </li>
+                            <li>
+                                <i>Being Mortal</i>, Atul Gawande
+                                <br>
+                                <blockquote class = "blockquote">
+                                    <p>“We’ve been wrong about what our job is in medicine. We think our job is to ensure health and survival. But really it is larger than that. It is to enable well-being.”</p>
+                                    <footer class = "blockquote-footer">Atul Gawande</footer>
+                                </blockquote>
+                            </li>
+                            <li>
+                                <i>1984</i>, George Orwell
+                                <br>
+                                <blockquote class = "blockquote">
+                                    <p>“Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.”</p>
+                                    <footer class = "blockquote-footer">George Orwell</footer>
+                                </blockquote>
+                            </li>
+                            <li>
+                                <i>The 4-Hour Workweek</i>, Timothy Ferriss
+                                <br>
+                                <blockquote class = "blockquote">
+                                    <p>“Life is too short to be small.”</p>
+                                    <footer class = "blockquote-footer">Timothy Ferriss</footer>
+                                </blockquote>
+                            </li>
+                            <li>
+                                <i>When Breath Becomes Air</i>, Paul Kalanithi
+                                <br>
+                                <blockquote class = "blockquote">
+                                    <p>“You can’t ever reach perfection, but you can believe in an asymptote toward which you are ceaselessly striving.”</p>
+                                    <footer class = "blockquote-footer">Paul Kalanithi</footer>
+                                </blockquote>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class = "row interests" id = "volunteering">
+                    <div class = "col-sm-4">
+                        <img src = "images/volunteering.png">
+                    </div>
+                    <div class = "col-sm-8">
+                        <p style = "font-size: 1.2em">Volunteering is one of the best ways to give back to the community and make a difference in the lives of other people. By volunteering,
+                            I am able to support important causes while also learning new skills and forming meaningful connections. I have been volunteering 
+                            consistently throughout high school and continue to do so during college. Some of the organizations I have volunteered for in the past 
+                            are The American Diabetes Association, Special Olympics New Jersey, National Multiple Sclerosis Society, and the American Cancer Society. 
+                            I've mainly helped with events and fundraisers, whether it was by helping set up equipment, give out food, or run small venues/stations. 
+                            <br>
+                            <br>
+                            Currently, I am volunteering for my organization, Horizon Networks NJ, and a local hospice facility, Stein Hospice. Although I am the 
+                            President of Horizon Networks NJ and oversee operations, I also consistently volunteer at events with seniors, whether it is by helping
+                            trivia, jeopardy, or music activities, or simply by spending some time talking to the seniors and providing them with company. I recently joined
+                            Stein Hospice as a volunteer, and it has definitely provided me with some of the most meaningful experiences. I help deliver birthday presents
+                            to some of the hospice patients at their homes and spend some time talking with them and their families as they enjoy their gifts. I also visit
+                            one of the patients frequently and spend some time talking to them at their home. 
+
+                        </a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- carousel-->
+
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" width = "50%">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" width = "100%">
+              <div class="carousel-item active">
+                <img class="d-block" src="images/books.png">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="images/eas.jpg">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="images/medicine.jpg">
+              </div>
+            </div>
+            <a class="carousel-control-prev" data-target = "#carouselExampleIndicators" role="button" data-slide="prev" onclick = "fxn()" style = "z-index: 100;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" data-target="#carouselExampleIndicators" role="button" data-slide="next" onclick = "fxn()" style = "z-index: 100;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div> -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" width="50vh">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" width="100%">
+                <div class="carousel-item active">
+                    <img class="d-block project-image gaming-image" src="images/books.png">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block project-image gaming-image" src="images/ecosleep.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block project-image gaming-image" src="images/experiencesbg.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block project-image gaming-image" src="images/medicine.jpg">
+                </div>
+            </div>
+            <a class="carousel-control-prev" data-target="#carouselExampleIndicators" role="button" data-slide="prev" style = "z-index: 100">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" data-target="#carouselExampleIndicators" role="button" data-slide="next" style = "z-index: 100">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class = "section" id = "contact">
+            <h2>Contact Me</h2>
+ 
+            <hr style = "color: white">
+            <p class = "contact-text">
+                EMAIL<a href = "mailto:praneetk07@gmail.com?body=Hi Praneet,"><i class="fas fa-envelope fa-2x social-icon"></i></a><a href = "mailto:praneetk07@gmail.com?body=Hi Praneet,">praneetk07@gmail.com</a>
+            </p>
+            <p class = "contact-text">
+                PHONE<a href = "tel:8486675723"><i class="fas fa-phone fa-2x social-icon"></i></a><a href = "tel:8486675723">(848) 667-5723</a>
+            </p>
+            <p class = "contact-text">
+                LINKEDIN<a href = "www.linkedin.com/in/praneet-kaki"><i class="fab fa-linkedin-in fa-2x social-icon"></i></a><a href = "www.linkedin.com/in/praneet-kaki">praneet-kaki</a>
+            </p>
+        </div>
+
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
