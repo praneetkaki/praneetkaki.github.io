@@ -8,7 +8,8 @@
 }
 
 html{
-    height:100%; 
+    height:100%;
+    
 
 }
 
@@ -155,7 +156,7 @@ body{
     align-items: center;
     justify-content: center;
     color: white;
-    border: 3px solid rgb(130, 149, 207);
+    
     padding: 5px;
 
 }
@@ -190,7 +191,7 @@ body{
     align-items:center;
     padding:0;
     width:100%;
-    height: 30vw;
+    /* height: 30vw; */
     overflow-x:scroll;
 }
 
@@ -209,12 +210,12 @@ body{
     min-width: 260px;
     background-color: black;
     color: rgb(184, 184, 184);
-    height: 100%;
+    /* height: 100%; */
 }
 
 .study img{
-    width: 80%;
-    height: 30vh;
+    /* width: 80%; */
+    /* height: 30vh; */
     
 }
 
@@ -360,19 +361,19 @@ i{
     font-family: 'Ubuntu';
 }
 
-.card-deck{
+.research-studies{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.card-deck img{
-    height: 30%;
-}
+/* .card-deck img{
+    height: 30%
+} */
 
 /* trying slideshow stuff */
-.slideshow-container {
+/* .slideshow-container {
     width: 50%;
     position: relative;
     margin: auto;
@@ -406,5 +407,5 @@ i{
   #carouselExampleIndicators{
       width: 50%;
       margin-left: 25%;
-  }
+  } */
 

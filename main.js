@@ -26,8 +26,8 @@ const backgrounds = {
     },
     contact: {
         bg: 'url("images/webbg.jpg")',
-        above: "contact",
-        opacity: 0
+        above: "interests",
+        opacity: 1.0
     }
 
 };
@@ -117,6 +117,20 @@ let x= 10;
 function fxn(){
     console.log("clicked button");
 }
+
+if($("#resume-doc").height() > $("#resume-doc").width()){
+    $("#resume-doc").height($("#resume-doc").width() * 1.4142);
+}
+
+
+let maxHeight = 0;
+const studies = $(".study");
+studies.each(i => {
+    maxHeight = Math.max(maxHeight, $(studies[i]).height());
+});
+
+studies.height(maxHeight);
+
 
 
 
