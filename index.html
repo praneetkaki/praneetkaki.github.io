@@ -35,26 +35,31 @@
                         <img src="images/PK.png" alt="Logo" style="width:50px;">
                     </a>
 
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#home">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#education">Education</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#experiences">Experiences</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#resume">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#interests">Interests</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact">Contact Me</a>
-                        </li>
-                      </ul>
+                    <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class = "collapse navbar-collapse" id = "navbarSupportedContent" >
+                        <ul class= "navbar-nav nav-pills">
+                            <li class="nav-item">
+                            <a class="nav-link" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#experiences">Experiences</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#interests">Interests</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div> 
                 </nav>
 
                 <div class = "container-fluid" id = "home">
@@ -87,7 +92,7 @@
                         <img class = "eduimg" src = "images/sbhs.jpg">
                     </div>
                     <div class = "col-sm-9">
-                        <p>I attended <a href ="https://sbhs.sbschools.org/">South Brunswick High School</a>, where I graduated from in 2020. I was one of the top students in my class, earning a 4.53 GPA, 36 ACT, and 1520 SAT. I have taken many AP and college-level courses related to science and math. For more detail on my courses, feel free to check out my <a href = "#resume">Resume</a>.</p>
+                        <p class = "site-text">I attended <a href ="https://sbhs.sbschools.org/">South Brunswick High School</a>, where I graduated from in 2020. I was one of the top students in my class, earning a 4.53 GPA, 36 ACT, and 1520 SAT. I have taken many AP and college-level courses related to science and math. For more detail on my courses, feel free to check out my <a href = "#resume">Resume</a>.</p>
                     </div>
                 </div>
                 <div class = "row school" id = "psu">
@@ -95,7 +100,7 @@
                         <img class = "eduimg" src = "images/psu.jpg">
                     </div>
                     <div class = "col-sm-9">
-                        <p>I am currently a sophomore undergraduate student at <a href = "https://www.psu.edu/">Pennsylvania State University</a>, where I am pursuing a B.S degree in Premedicine. I am one of the few students in the distinguished <a href = "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd">Accelerated Premedical-Medical (BS/MD) Program</a>, through which I will spend three years total as an undergraduate student at Penn State and then attend medical school for four years at Sidney Kimmel Medical College.</p>
+                        <p class = "site-text">I am currently a sophomore undergraduate student at <a href = "https://www.psu.edu/">Pennsylvania State University</a>, where I am pursuing a B.S degree in Premedicine. I am one of the few students in the distinguished <a href = "https://science.psu.edu/interdisciplinary-programs/premed-med-bsmd">Accelerated Premedical-Medical (BS/MD) Program</a>, through which I will spend three years total as an undergraduate student at Penn State and then attend medical school for four years at Sidney Kimmel Medical College.</p>
                     </div>
                 </div>
                 <div class = "row school" id = "sbhs">
@@ -103,22 +108,22 @@
                         <img class = "eduimg" src = "images/skmc.jpg">
                     </div>
                     <div class = "col-sm-9">
-                        <p>After spending three years at Penn State, I will matriculate to <a href = "https://www.jefferson.edu/academics/colleges-schools-institutes/skmc.html">Sidney Kimmel Medical College</a> at Thomas Jefferson University in 2023. Here, I will spend four years as a medical school student and dive much deeper into the field of medicine. Through the pre-clinical and clinical education and training, I will be be able to gauge my interests and ultimately prepare for residency.</p>
+                        <p class = "site-text">After spending three years at Penn State, I will matriculate to <a href = "https://www.jefferson.edu/academics/colleges-schools-institutes/skmc.html">Sidney Kimmel Medical College</a> at Thomas Jefferson University in 2023. Here, I will spend four years as a medical school student and dive much deeper into the field of medicine. Through the pre-clinical and clinical education and training, I will be be able to gauge my interests and ultimately prepare for residency.</p>
                     </div>
                 </div>
             </div>
             <br>
             <br>
-            <div class = "medicine-interest">
+            <div class = "medicine-interest row">
 
-                <p id = "medinfo"> 
+                <p id = "medinfo" class = "col-sm-9 site-text"> 
                     My ultimate career goal is to become a well-rounded doctor. Thus, academically, I am highly focused on biology and the life sciences, 
                     in addition to chemistry, physics, and psychology. I enjoy learning about these subjects and appreciate any opportunity to understand how they intersect
                     and/or have real-world applications. Outside of school, I like to find ways to build on my academic knowledge, whether it is by reading articles about
                     medicine, reading books, or getting involved in research. Currently, my objective is to acquire a strong foundation on these subjects in preparation 
                     for med school, where these sciences will come together in the context of the human body. 
                 </p>
-                <img src = "images/medicine.jpg" width = "30%" height = "auto">
+                <img src = "images/medicine.jpg" width = "30%" height = "auto" class = "col-sm-3">
             </div>
         </div>
 
@@ -131,11 +136,11 @@
                         <img src = "images/research.png">
                     </div>
                     <div class = "col-sm-9">
-                        <p id = "researchinfo">Currently, I am serving as an Undergraduate Research Assistant (UGRA) in the <a href = "https://hhd.psu.edu/bbh/sleep-health-and-society">Sleep, Health, and Society Collaboratory</a> 
+                        <p id = "researchinfo" class = "site-text">Currently, I am serving as an Undergraduate Research Assistant (UGRA) in the <a href = "https://hhd.psu.edu/bbh/sleep-health-and-society">Sleep, Health, and Society Collaboratory</a> 
                             at Penn State. Since I joined the lab recently, I am getting involved in a variety of studies, which are listed below. 
                             I have many goals and aspirations during my time as an UGRA. This is my first time doing research, so I want to get my feet wet in the lab 
                             setting and acquire experiences that can prepare me for future studies in medical school. I have also been interested in the subject of sleep for 
-                            a while now and my curiosity only peaked after taking an introductory psychology course during my first semester at Penn State. As an URGA in the 
+                            a while now and my curiosity only peaked after taking an introductory psychology course during my first semester at Penn State. As an UGRA in the 
                             PSU Sleep lab, I hope to delve deeper into this interest of mine and apply my knowledge to real-world scenarios and studies. Along my journey, I am 
                             looking forward to meeting new students and networking with faculty members who I can look up to as mentors.
                         </p>
@@ -196,7 +201,7 @@
                                 The goal is to isolate these fators and develop interventions that can act upon them in order to 
                                 slow down cognitive decline. Over this summer, I am going to be looking at actigraphy data (using the 
                                 Spectrum software) and pulse oximetry data (using Nonin software) for data checks as they are uploaded
-                                by the team at Albert Einstrin College of Medicine.
+                                by the team at Albert Einstein College of Medicine.
                             </p>
                             <div class = "btn-group">
                                 <a href = "https://healthyaging.psu.edu/research/research-projects/einstein-aging-study-eas" class = "btn btn-primary card-link">Website</a>
@@ -210,7 +215,7 @@
                         <img src = "images/hn_logo.png">
                     </div>
                     <div class = "col-sm-9">
-                        <p id = "hninfo">I am the President of the New Jersey Chapter of <a href = "https://thehorizonnetwork.org/">Horizon Networks</a>, a nonprofit volunteer
+                        <p id = "hninfo" class = "site-text">I am the President of the New Jersey Chapter of <a href = "https://thehorizonnetwork.org/">Horizon Networks</a>, a nonprofit volunteer
                             organization that connects young individuals (high school/college students) with members of the senior population, who are part of an
                             at-risk group due to the COVID-19 pandemic. Our mission is to ease the loneliness that seniors may feel in the midst of quarantine
                             by allowind them to connect with the youth, who can provide a meaningful sense of comfort and compassion that is absolutely needed 
@@ -225,7 +230,7 @@
                         <img src = "images/mpama.png">
                     </div>
                     <div class = "col-sm-9">
-                        <p id = "karateinfo"> I have learning Tae-Kwon-Do for over 6 years at <a href = "https://mpama.com/">Master Peter's Academy of Martial Arts.</a> 
+                        <p id = "karateinfo" class = "site-text"> I have learning Tae-Kwon-Do for over 6 years at <a href = "https://mpama.com/">Master Peter's Academy of Martial Arts.</a> 
                         Martial Arts has not only helped me develop physically and mentally, but also played a huge role in molding me into the 
                         person I am today. I grew from a young, naive middle school kid into a young man with a true sense of discipline and 
                         the willpower to work hard and pursue any goal. Throughout my time at MPAMA, I have learned many valuable lessons from 
@@ -266,7 +271,7 @@
                         <img src = "images/mpama.png">
                     </div>
                     <div class = "col-sm-9">
-                        <p>I have played and watched sports for as long as I can remember. I ran distance track and cross country in middle and high school
+                        <p class = "site-text">I have played and watched sports for as long as I can remember. I ran distance track and cross country in middle and high school
                         and enjoy running in my free time to this day. Not only is it physically taxing, running is also mentally challenging. It has taught me 
                         that now matter how tired your body is, it is always possible to keep running as long as your mind is in the right place and has not
                         succumbed to physical discomfort. Running has truly helped me develop my mental fortitude that has paid dividends in several aspects of
@@ -286,7 +291,7 @@
                 <div class = "row interests" id = "reading">
                     <div class = "col-sm-7">
                         <img src = "images/books.png">
-                        <p>Reading is always one of my favorite ways to relax and expand my mind.
+                        <p class = "site-text">Reading is always one of my favorite ways to relax and expand my mind.
                             Reading books and articles has not only allowed me to constantly acquire real-world knowledge outside of school, 
                             but also helped me develop important qualities such as patience, concentration, and curiosity.
                             <br>
@@ -352,7 +357,7 @@
                         <img src = "images/volunteering.png">
                     </div>
                     <div class = "col-sm-8">
-                        <p style = "font-size: 1.2em">Volunteering is one of the best ways to give back to the community and make a difference in the lives of other people. By volunteering,
+                        <p style = "font-size: 1.2em" class = "site-text">Volunteering is one of the best ways to give back to the community and make a difference in the lives of other people. By volunteering,
                             I am able to support important causes while also learning new skills and forming meaningful connections. I have been volunteering 
                             consistently throughout high school and continue to do so during college. Some of the organizations I have volunteered for in the past 
                             are The American Diabetes Association, Special Olympics New Jersey, National Multiple Sclerosis Society, and the American Cancer Society. 
@@ -416,7 +421,7 @@
                 EMAIL<a href = "mailto:praneetk07@gmail.com?body=Hi Praneet,"><i class="fas fa-envelope fa-2x social-icon"></i></a><a href = "mailto:praneetk07@gmail.com?body=Hi Praneet,">praneetk07@gmail.com</a>
             </p>
             <p class = "contact-text">
-                PHONE<a href = "tel:8486675723"><i class="fas fa-phone fa-2x social-icon"></i></a><a href = "tel:8486675723">(848) 667-5723</a>
+                PHONE<a href = "tel:8486675723"><i class="fas fa-phone fa-2x social-icon"></i></a><a href = "tel:8486675723">(848)667-5723</a>
             </p>
             <p class = "contact-text">
                 LINKEDIN<a href = "www.linkedin.com/in/praneet-kaki"><i class="fab fa-linkedin-in fa-2x social-icon"></i></a><a href = "www.linkedin.com/in/praneet-kaki">praneet-kaki</a>

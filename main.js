@@ -131,6 +131,12 @@ studies.each(i => {
 
 studies.height(maxHeight);
 
+const taller = window.innerHeight > window.innerWidth;
+
+
+if (taller) {
+    $('*').addClass('taller');
+}
 
 
 
